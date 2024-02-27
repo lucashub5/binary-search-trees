@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./style.css">
+    <title>Binary Search Tree</title>
+</head>
+<body>
+    <header><h1>Binary Search Tree</h1></header>
+    <main>
+        <div class="input">
+            <h2>Input</h2>
+                <form id="generateForm">
+                    <label for="insertInput">Enter numbers followed by spaces:</label>
+                    <input type="text" id="insertInput">
+                </form>
+                <form id="insertForm">
+                    <label for="insertInput">Number:</label>
+                    <div>
+                        <input type="text" id="inputText">
+                        <button type="button" id="insertNumber">Insert</button>
+                        <button type="button" id="deleteNumber">Delete</button>
+                        <button type="button" id="findNumber">Find</button>
+                    </div>
+                </form>
+                <a id="info">Test</a>
+                <button type="button" id="rebalance">Rebalance tree</button>
+        </div>
+        <div class="output">
+            <h2>Output</h2>
+            <a id="output-div"></a>
+        </div>
+        <div class="information">
+            <h2>Information</h2>
+            <a>Height:</a>
+            <a>Balanced:</a>
+            <a>Pre Order:</a>
+            <a>In Order:</a>
+            <a>Post Order:</a>
+        </div>
+    </main>
+    <footer>By Lucas Carovano</footer>
+    <script src="bundle.js"></script>
+</body>
+</html>
